@@ -6,4 +6,5 @@ torchvision==0.17.2
 opencv-python==4.9.0.80
 numpy==1.24.4
 tensorflow
-tensorflow-hub 
+tensorflow-hub
+flask-cors
