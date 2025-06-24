@@ -19,7 +19,7 @@
 ### 1. Register a Stream
 Register a video file, RTSP stream, or image folder:
 ```bash
-curl -X POST http://localhost:5000/streams/ -H "Content-Type: application/json" -d '{"url": "./sample_data/video1.mp4"}'
+curl -X POST http://localhost:5000/streams/ -H "Content-Type: application/json" -d "{\"url\": \"./sample_data/video1.mp4\"}"
 ```
 Response:
 ```json
